@@ -1,0 +1,70 @@
+{
+    "projects": [
+        {
+            "projectName": "E-Commerce Application",
+            "projectImage": "ecommerce.png",
+            "projectLink": "https://www.ecommerceapp.com",
+            "projectGithubLink": "https://github.com/user/ecommerce-project",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "React",
+                "Redux",
+                "Tailwind CSS"
+            ],
+            "description": "This project includes an e-commerce application that allows users to browse and purchase various products."
+        },
+        {
+            "projectName": "Personal Blog Website",
+            "projectImage": "blog.png",
+            "projectLink": "https://www.personalblog.com",
+            "projectGithubLink": "https://github.com/user/blog-website",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Bootstrap"
+            ],
+            "description": "This project includes a personal blog website where users can share their writings."
+        },
+        {
+            "projectName": "Mobile Weather App",
+            "projectImage": "weather.png",
+            "projectLink": "https://www.weatherapp.com",
+            "projectGithubLink": "https://github.com/user/weather-app",
+            "projectType": "Mobile Application",
+            "usedFeatures": [
+                "React Native",
+                "API Integration"
+            ],
+            "description": "This project includes a mobile application that allows users to view weather information."
+        },
+        {
+            "projectName": "Social Media Analytics Tool",
+            "projectImage": "socialmedia.png",
+            "projectLink": "https://www.socialmediaanalytics.com",
+            "projectGithubLink": "https://github.com/user/social-media-analytics",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "React",
+                "Python",
+                "Django",
+                "Chart.js"
+            ],
+            "description": "This project includes a web application that enables users to analyze their social media accounts."
+        },
+        {
+            "projectName": "ToDo List Application",
+            "projectImage": "todolist.png",
+            "projectLink": "https://www.todolistapp.com",
+            "projectGithubLink": "https://github.com/user/todo-list-app",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "React",
+                "Local Storage",
+                "CSS"
+            ],
+            "description": "This project includes a ToDo list application to help users manage their tasks."
+        }
+    ]
+}

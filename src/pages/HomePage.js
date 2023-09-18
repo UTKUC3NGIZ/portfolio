@@ -4,7 +4,7 @@ import MyImage from "../assets/img/myImage.jpg";
 function HomePage() {
   return (
     <div>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <nav class="bg-white border-gray-200 dark:bg-gray-800">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" class="flex items-center">
             <img src={Logo} alt="Logo" className="mr-3 h-6 sm:h-9 w-2/3" />
@@ -34,7 +34,7 @@ function HomePage() {
             </svg>
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-800">
               <li>
                 <a
                   href="#"
@@ -97,40 +97,40 @@ function HomePage() {
         </div>
         <div class="grid max-w-screen-xl grid-cols-2 gap-8 px-4 pb-8 mx-auto text-gray-500 lg:pb-16 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
           <a href="#" class="flex justify-center">
-            <i class="devicon-nextjs-original colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-nextjs-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-react-original colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-react-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-tailwindcss-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white "></i>
+            <i class="devicon-tailwindcss-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white "></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-firebase-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-firebase-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-sass-original colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-sass-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-javascript-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-javascript-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-html5-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-html5-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-css3-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-css3-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-figma-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-figma-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-github-original colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-github-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-bootstrap-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-bootstrap-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
           <a href="#" class="flex justify-center">
-            <i class="devicon-vscode-plain colored text-9xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i class="devicon-vscode-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
           </a>
         </div>
       </section>
@@ -562,6 +562,64 @@ function HomePage() {
           </div>
         </div>
       </section>
+      <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+        <div class="mx-auto max-w-screen-xl text-center">
+          <a
+            href="#"
+            class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
+          >
+          <img src={Logo} alt="" />
+          </a>
+          <p class="my-6 text-gray-500 dark:text-gray-400">
+            Open-source library of over 400+ web components and interactive
+            elements built for better web.
+          </p>
+          <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">
+                Premium
+              </a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                Campaigns
+              </a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">
+                Affiliate Program
+              </a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">
+                FAQs
+              </a>
+            </li>
+            <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            © 2021-2022{" "}
+            <a href="#" class="hover:underline">
+              Flowbite™
+            </a>
+            . All Rights Reserved.
+          </span>
+        </div>
+      </footer>
     </div>
   );
 }

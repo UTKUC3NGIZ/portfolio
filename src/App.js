@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 import Navbar from "./pages/components/Navbar";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
       {/* <HomePage /> */}
       {/* <NotFound /> */}
-      <Projects />
+      <About />
+      {/* <Projects /> */}
       <Footer />
     </div>
   );

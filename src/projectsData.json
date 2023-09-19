@@ -1,8 +1,21 @@
 {
     "projects": [
         {
+            "projectName": "Todo App",
+            "projectImage": "https://github.com/UTKUC3NGIZ/pinsoft-todo-app/blob/master/todoimg.png?raw=true",
+            "projectLink": "https://pinsoft-todo-app.vercel.app/",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/pinsoft-todo-app",
+            "projectType": "Front-end",
+            "usedFeatures": [
+                "ReactJs",
+                "Tailwind",
+                "Firebase"
+            ],
+            "description": "This project includes an e-commerce application that allows users to browse and purchase various products."
+        },
+        {
             "projectName": "NFT Marketplace",
-            "projectImage": "https://raw.githubusercontent.com/UTKUC3NGIZ/website-nft-marketplace/main/img/desktop1.png",
+            "projectImage": "https://github.com/UTKUC3NGIZ/website-nft-marketplace/blob/main/img/React-App.png?raw=true",
             "projectLink": "https://nft-marketplace-amber-eta.vercel.app/",
             "projectGithubLink": "https://github.com/UTKUC3NGIZ/website-nft-marketplace",
             "projectType": "Front-end",
@@ -13,55 +26,118 @@
             "description": "This project includes an e-commerce application that allows users to browse and purchase various products."
         },
         {
-            "projectName": "NFT Marketplace",
-            "projectImage": "https://raw.githubusercontent.com/UTKUC3NGIZ/website-nft-marketplace/main/img/desktop1.png",
-            "projectLink": "https://nft-marketplace-amber-eta.vercel.app/",
-            "projectGithubLink": "https://github.com/UTKUC3NGIZ/website-nft-marketplace",
+            "projectName": "Cash App Admin Panel",
+            "projectImage": "https://github.com/UTKUC3NGIZ/cashappadmin/blob/main/img/fghfghfgh.png?raw=true",
+            "projectLink": "https://cashappadmin.vercel.app/",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/cashappadmin",
             "projectType": "Front-end",
             "usedFeatures": [
-                "ReactJs",
+                "NextJs",
                 "Tailwind"
             ],
             "description": "This project includes an e-commerce application that allows users to browse and purchase various products."
         },
         {
-            "projectName": "Mobile Weather App",
-            "projectImage": "weather.png",
-            "projectLink": "https://www.weatherapp.com",
-            "projectGithubLink": "https://github.com/user/weather-app",
+            "projectName": "Dynamic Navbar",
+            "projectImage": "https://github.com/UTKUC3NGIZ/dynamic-navbar/raw/main/image/desktop1.png?raw=true",
+            "projectLink": "https://dynamic-navbar.vercel.app/",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/dynamic-navbar",
             "projectType": "Mobile Application",
             "usedFeatures": [
-                "React Native",
-                "API Integration"
+                "ReactJs",
+                "Tailwind"
             ],
             "description": "This project includes a mobile application that allows users to view weather information."
         },
         {
-            "projectName": "Social Media Analytics Tool",
-            "projectImage": "socialmedia.png",
-            "projectLink": "https://www.socialmediaanalytics.com",
-            "projectGithubLink": "https://github.com/user/social-media-analytics",
+            "projectName": "Space Tourism",
+            "projectImage": "https://utkuc3ngiz.github.io/space-tourism-website-figma/spaceTourismSS.png",
+            "projectLink": "https://utkuc3ngiz.github.io/space-tourism-website-figma/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/space-tourism-website-figma",
             "projectType": "Web Application",
             "usedFeatures": [
-                "React",
-                "Python",
-                "Django",
-                "Chart.js"
+                "JavaScript",
+                "CSS",
+                "HTML"
             ],
             "description": "This project includes a web application that enables users to analyze their social media accounts."
         },
         {
-            "projectName": "ToDo List Application",
-            "projectImage": "todolist.png",
-            "projectLink": "https://www.todolistapp.com",
-            "projectGithubLink": "https://github.com/user/todo-list-app",
+            "projectName": "IP Address Tracker",
+            "projectImage": "https://utkuc3ngiz.github.io/url-shortening-api-master/assets/Shortly_URL_shortening_API_Challenge.png",
+            "projectLink": "https://utkuc3ngiz.github.io/ip-address-tracker-master/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/ip-address-tracker-master",
             "projectType": "Web Application",
             "usedFeatures": [
-                "React",
-                "Local Storage",
-                "CSS"
+                "JavaScript",
+                "CSS",
+                "HTML"
             ],
             "description": "This project includes a ToDo list application to help users manage their tasks."
+        },
+        {
+            "projectName": "Static Job Listings Master",
+            "projectImage": "https://utkuc3ngiz.github.io/static-job-listings-master/Job_Listings_With_Filtering.png",
+            "projectLink": "https://utkuc3ngiz.github.io/static-job-listings-master/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/static-job-listings-master",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "description": "This project includes a web application that enables users to analyze their social media accounts."
+        },
+        {
+            "projectName": "Interactive Card Details Form",
+            "projectImage": "https://utkuc3ngiz.github.io/interactive-card-details-form-main/Interactive_card_details_form.png",
+            "projectLink": "https://utkuc3ngiz.github.io/interactive-card-details-form-main/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/interactive-card-details-form-main",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "description": "This project includes a web application that enables users to analyze their social media accounts."
+        },
+        {
+            "projectName": "School VR Web Page Design",
+            "projectImage": "https://utkuc3ngiz.github.io/School-VR/SchoolVR.png",
+            "projectLink": "https://utkuc3ngiz.github.io/School-VR/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/School-VR",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "description": "This project includes a web application that enables users to analyze their social media accounts."
+        },
+        {
+            "projectName": "SmartPhone Application Web Page Design",
+            "projectImage": "https://utkuc3ngiz.github.io/SmartPhone-Application-Web-Page-Design/SmartPhone-Application-Web-Page-Design-screenshot.png",
+            "projectLink": "https://utkuc3ngiz.github.io/SmartPhone-Application-Web-Page-Design/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/SmartPhone-Application-Web-Page-Design",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "description": "This project includes a web application that enables users to analyze their social media accounts."
+        },
+        {
+            "projectName": "Chat app CSS illustration",
+            "projectImage": "https://utkuc3ngiz.github.io/chat-app-css-illustration-master/chat-app-css-illustration-master.png",
+            "projectLink": "https://utkuc3ngiz.github.io/space-tourism-website-figma/index.html",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/utkuc3ngiz.github.io/tree/main/chat-app-css-illustration-master",
+            "projectType": "Web Application",
+            "usedFeatures": [
+                "CSS",
+                "HTML"
+            ],
+            "description": "This project includes a web application that enables users to analyze their social media accounts."
         }
     ]
 }

@@ -101,7 +101,11 @@ function HomePage({ projects }) {
                     {project.projectType}
                   </span>
                   <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
-                    <a href={project.projectLink} className="hover:underline">
+                    <a
+                      href={project.projectLink}
+                      target="_blank"
+                      className="hover:underline"
+                    >
                       {project.projectName}
                     </a>
                   </h3>
@@ -111,17 +115,17 @@ function HomePage({ projects }) {
                 </div>
                 <div className="flex items-center gap-4">
                   <a
+                    target="_blank"
                     href={project.projectGithubLink}
                     title=""
                     className="text-white bg-primary-700  hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                     role="button"
                   >
                     GitHub
-                    
                   </a>
-                  
 
                   <a
+                    target="_blank"
                     href={project.projectLink}
                     title=""
                     className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded-lg shrink-0 focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"

@@ -51,7 +51,8 @@ function Projects({ projects }) {
                       {project.projectName}
                     </h3>
                     <a
-                      href="https://flowbite.com"
+                      target="_blank"
+                      href={project.projectLink}
                       title=""
                       className="inline-flex items-center text-lg font-medium text-primary-600 hover:underline dark:text-primary-500"
                     >
@@ -103,6 +104,7 @@ function Projects({ projects }) {
                   </div>
 
                   <a
+                    target="_blank"
                     href={project.projectGithubLink}
                     title=""
                     className="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"

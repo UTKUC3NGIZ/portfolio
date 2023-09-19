@@ -1,14 +1,13 @@
 {
     "projects": [
         {
-            "projectName": "E-Commerce Application",
-            "projectImage": "ecommerce.png",
-            "projectLink": "https://www.ecommerceapp.com",
-            "projectGithubLink": "https://github.com/user/ecommerce-project",
-            "projectType": "Web Application",
+            "projectName": "NFT Marketplace",
+            "projectImage": "https://raw.githubusercontent.com/UTKUC3NGIZ/website-nft-marketplace/main/img/desktop1.png",
+            "projectLink": "https://nft-marketplace-amber-eta.vercel.app/",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/website-nft-marketplace",
+            "projectType": "Front-end",
             "usedFeatures": [
                 "React",
-                "Redux",
                 "Tailwind CSS"
             ],
             "description": "This project includes an e-commerce application that allows users to browse and purchase various products."

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/img/logo.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -14,19 +15,19 @@ function Footer() {
           </a>
           <ul class="flex flex-wrap justify-center items-center my-6 text-gray-900 dark:text-white">
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+              <Link to="/" class="mr-4 hover:underline md:mr-6 ">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">
+              <Link to="/about" class="mr-4 hover:underline md:mr-6">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+              <Link to="/projects" class="mr-4 hover:underline md:mr-6 ">
                 Projects
-              </a>
+              </Link>
             </li>
           </ul>
           <ul class="flex justify-center my-6 space-x-5">

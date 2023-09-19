@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MyImage from "../assets/img/myImage.jpg";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section class="overflow-hidden relative bg-white dark:bg-gray-900 min-h-[700px] flex">

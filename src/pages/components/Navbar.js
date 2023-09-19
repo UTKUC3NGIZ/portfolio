@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom"; // React Router'dan Link'i içe aktarıyoruz
 import Logo from "../../assets/img/logo.svg";
 
 function Navbar() {
   const location = useLocation();
   const currentPath = location.pathname;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

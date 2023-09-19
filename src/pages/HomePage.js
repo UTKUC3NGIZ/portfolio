@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom";
 import MyImage from "../assets/img/myImage.jpg";
+import { useEffect } from "react";
 function HomePage({ projects }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <section className="bg-white dark:bg-gray-900">
@@ -27,40 +32,40 @@ function HomePage({ projects }) {
         </div>
         <div className="grid mt-12 max-w-screen-xl grid-cols-2 gap-8 px-4 pb-8 mx-auto text-gray-500 lg:pb-16 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
           <a href="#" className="flex justify-center">
-            <i className="devicon-nextjs-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-nextjs-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-react-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-react-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-tailwindcss-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white "></i>
+            <i className="devicon-tailwindcss-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90  "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-firebase-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-firebase-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-sass-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-sass-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-javascript-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-javascript-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-html5-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-html5-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-css3-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-css3-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-figma-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-figma-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-github-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-github-original colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-bootstrap-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-bootstrap-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
           <a href="#" className="flex justify-center">
-            <i className="devicon-vscode-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 dark:hover:text-white"></i>
+            <i className="devicon-vscode-plain colored xl:text-8xl text-7xl hover:opacity-100 opacity-90 "></i>
           </a>
         </div>
       </section>
@@ -76,7 +81,7 @@ function HomePage({ projects }) {
           </div>
 
           <div className="grid grid-cols-1 gap-12 mt-12 sm:gap-8 lg:gap-16 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project, index) => (
+            {projects.slice(0, 3).map((project, index) => (
               <div>
                 <img
                   className="object-cover w-full rounded-lg shadow-lg  mb-6"
@@ -146,6 +151,28 @@ function HomePage({ projects }) {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-20 flex justify-center">
+            <Link
+              to="/projects"
+              class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+            >
+              <svg
+                className="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 1v16M1 9h16"
+                />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>

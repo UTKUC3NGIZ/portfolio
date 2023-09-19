@@ -1,18 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../../assets/img/logo.svg";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
         <div class="mx-auto max-w-screen-xl text-center">
-          <a
-            href="#"
+          <Link
+            to="/"
             class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
           >
             <img src={Logo} alt="" />
-          </a>
+          </Link>
           <ul class="flex flex-wrap justify-center items-center my-6 text-gray-900 dark:text-white">
             <li>
               <Link to="/" class="mr-4 hover:underline md:mr-6 ">
@@ -125,7 +128,7 @@ function Footer() {
           </ul>
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 ">
             © 2021-2022{" "}
-            <a href="#" class="hover:underline">
+            <a href="https://github.com/UTKUC3NGIZ" class="hover:underline">
               UTKUC3NGIZ™
             </a>
             . All Rights Reserved.

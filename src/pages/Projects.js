@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const icons = {
   Bootstrap: require("../assets/img/icons/Bootstrap.svg").default,
@@ -16,6 +16,9 @@ const icons = {
 };
 
 function Projects({ projects }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section className="bg-white dark:bg-gray-900 antialiased">

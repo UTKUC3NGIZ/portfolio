@@ -117,7 +117,9 @@ function HomePage({ projects }) {
                     role="button"
                   >
                     GitHub
+                    
                   </a>
+                  
 
                   <a
                     href={project.projectLink}

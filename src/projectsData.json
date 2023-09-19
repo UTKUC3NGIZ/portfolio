@@ -8,23 +8,21 @@
             "projectType": "Front-end",
             "usedFeatures": [
                 "React",
-                "Tailwind CSS"
+                "Tailwind"
             ],
             "description": "This project includes an e-commerce application that allows users to browse and purchase various products."
         },
         {
-            "projectName": "Personal Blog Website",
-            "projectImage": "blog.png",
-            "projectLink": "https://www.personalblog.com",
-            "projectGithubLink": "https://github.com/user/blog-website",
-            "projectType": "Web Application",
+            "projectName": "NFT Marketplace",
+            "projectImage": "https://raw.githubusercontent.com/UTKUC3NGIZ/website-nft-marketplace/main/img/desktop1.png",
+            "projectLink": "https://nft-marketplace-amber-eta.vercel.app/",
+            "projectGithubLink": "https://github.com/UTKUC3NGIZ/website-nft-marketplace",
+            "projectType": "Front-end",
             "usedFeatures": [
                 "React",
-                "Node.js",
-                "MongoDB",
-                "Bootstrap"
+                "Tailwind"
             ],
-            "description": "This project includes a personal blog website where users can share their writings."
+            "description": "This project includes an e-commerce application that allows users to browse and purchase various products."
         },
         {
             "projectName": "Mobile Weather App",
